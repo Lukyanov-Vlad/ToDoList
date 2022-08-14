@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.main_wrapper{
+    padding-top: 70px;
+    width: 350px;
+    
+    margin: 0 auto;
+}
+
+
+.todolist_title,
+.modal_title{
+    font-size: 22px;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+    letter-spacing: 0.1em;
+    font-family: arial;
+    background-color: #4086b1;
+    text-align: center;
+   
+    text-shadow:  2px 2px 3px black;
+    color: #fff;
+    box-shadow: inset 0 0 3px #fff;
+}
+.create_task,
+.modal_input{
+    
+    height: 26px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    width:300px;
+    margin-left:  25px;
+    border-radius: 2px;
+    border: 1px solid grey;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.todolist_item_checkbox{
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+    
+}
+
+
+.todolist_main,
+.modal_main{
+    padding-top: 20px;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.todolist_items{
+    margin: 0 25px;
+    list-style: none;
+    margin-bottom: 15px;
+    max-height: 300px;
+    overflow-y:auto;
+}
+.todolist_item{
+   
+    display: flex;
+    
+    margin-bottom: 10px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 8px;
+}
+
+
+
+.task_text{
+    width: 195px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+	align-items:center;
+    font-size: 18px;
+    
+    color:#2a3c44;
+   
+    text-transform: uppercase;
+    
+    
+}
+.text{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+}
+
+.cross{
+    text-decoration:line-through;
+    color:#bbbfc2;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.btn:hover{
+    color: #b52727;
+    text-shadow: 0 0 3px #af6363;
+}
+
+.edit_btn{
+    margin-right: 2px;
+}
+
+.modal{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.4);
+}
+.modal_container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_wrapper{
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+.modal_title,
+.modal_main{
+    padding:20px 15px;
+}
+.modal_main{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+}
+.modal_input{
+    margin-left: 0;
+}
+
+.modal_button{
+    font-size: 16px;
+    display: block;
+    padding: 15px 20px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: arial;
+    background-color: #4086b1;
+    text-align: center;
+   
+    text-shadow:  2px 2px 3px black;
+    color: #fff;
+    box-shadow: inset 0 0 3px #fff;
+}
