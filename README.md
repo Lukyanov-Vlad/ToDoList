@@ -50,12 +50,4 @@
 
 Ссылка на GitHub:  ___https://github.com/Lukyanov-Vlad___.
 
-https://i.ibb.co/Fm2m1gp/40.png
-https://i.ibb.co/nDMQcBK/41.png
-https://i.ibb.co/DGrpS2v/42.png
-https://i.ibb.co/rZPQpdz/43.png
-https://i.ibb.co/kHZWFk2/44.png
-https://i.ibb.co/DKn7tdf/45.png
-https://i.ibb.co/ySfM4v0/46.png
-https://i.ibb.co/qd5J2HV/47.png
-https://i.ibb.co/sPf1qcD/48.png
+
